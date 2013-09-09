@@ -147,13 +147,9 @@ function endAudio(){
 
 function dlAudio(url){
 	var dl = document.getElementById('dl');
-	dl.src = 'http://radio.esmut.cat/css/player/download_pres.png';
+	dl.src = 'http://yoursite.com/css/player/download_pres.png';
 	isDLPressed = true;
-	dlAudioAUX(url);
-}
-
-function dlAudioAUX(url){
-		window.open(url, '_self');
+	window.open(url, '_self');
 }
 
 //Selection Fn()
